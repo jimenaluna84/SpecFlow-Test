@@ -8,11 +8,11 @@
     And the perimeter should be <Perimeter>
 
     Examples:
-      | Side | Area | Perimeter | UnitOfMeasurement |
-      | 5    | 25   | 20        | cm                |
-      | 10   | 100  | 40        | m                 |
-      | 7    | 49   | 28        | mm                |
-
+      | Side | Area | Perimeter | 
+      | 5    | 25   | 20        | 
+      | 10   | 100  | 40        | 
+      | 7    | 49   | 28        |  # Negative side case
+   
    @mytag
   Scenario Outline: Calculate area and perimeter of a triangle
     Given we have a triangle base of <BaseTriangle> and a height of <Height>
@@ -21,10 +21,10 @@
     And the perimeter should be <Perimeter>
 
     Examples:
-      | BaseTriangle | Height | Area | Perimeter |
-      | 6            | 4      | 12   | 17.80     |
-      |8             | 5      | 20   | 24        |
-      | 10           | 7      | 35   | 30        |
+      | BaseTriangle | Height | Area | Perimeter   |
+      | 6            | 4      | 12   | 17.21       |
+      | 8            | 5      | 20   | 22.43       |
+      | 10           | 7      | 35   | 29.20       |
 
 
 @mytag
@@ -56,9 +56,9 @@
 
 
   @mytag
-  Scenario Outline: Calculate area and circumference of a circle
+  Scenario Outline: Calculate area and perimeter of a circle
     Given we have a circle with a radius of <Radius>
-    When we calculate CircularFigure area and perimeter
+    When  we calculate the area and perimeter
     Then the area should be <Area>
     And the perimeter should be <Perimeter>
 
@@ -72,7 +72,7 @@
    @mytag
   Scenario Outline: Calculate area and perimeter of an ellipse
     Given we have an ellipse with a major axis of <MajorAxis> and a minor axis of <MinorAxis>
-    When we calculate CircularFigure area and perimeter
+    When we calculate the area and perimeter
     Then the area should be <Area>
     And the perimeter should be <Perimeter>
 

@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowProject4.Features
+namespace SpecFlowTests.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -76,10 +76,10 @@ namespace SpecFlowProject4.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Calculate area and perimeter of a square")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        [NUnit.Framework.TestCaseAttribute("5", "25", "20", "cm", null)]
-        [NUnit.Framework.TestCaseAttribute("10", "100", "40", "m", null)]
-        [NUnit.Framework.TestCaseAttribute("7", "49", "28", "mm", null)]
-        public virtual void CalculateAreaAndPerimeterOfASquare(string side, string area, string perimeter, string unitOfMeasurement, string[] exampleTags)
+        [NUnit.Framework.TestCaseAttribute("5", "25", "20", null)]
+        [NUnit.Framework.TestCaseAttribute("10", "100", "40", null)]
+        [NUnit.Framework.TestCaseAttribute("7", "49", "28", null)]
+        public virtual void CalculateAreaAndPerimeterOfASquare(string side, string area, string perimeter, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "mytag"};
@@ -92,7 +92,6 @@ namespace SpecFlowProject4.Features
             argumentsOfScenario.Add("Side", side);
             argumentsOfScenario.Add("Area", area);
             argumentsOfScenario.Add("Perimeter", perimeter);
-            argumentsOfScenario.Add("UnitOfMeasurement", unitOfMeasurement);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of a square", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 4
   this.ScenarioInitialize(scenarioInfo);
@@ -133,9 +132,9 @@ namespace SpecFlowProject4.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Calculate area and perimeter of a triangle")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        [NUnit.Framework.TestCaseAttribute("6", "4", "12", "17.80", null)]
-        [NUnit.Framework.TestCaseAttribute("8", "5", "20", "24", null)]
-        [NUnit.Framework.TestCaseAttribute("10", "7", "35", "30", null)]
+        [NUnit.Framework.TestCaseAttribute("6", "4", "12", "17.21", null)]
+        [NUnit.Framework.TestCaseAttribute("8", "5", "20", "22.43", null)]
+        [NUnit.Framework.TestCaseAttribute("10", "7", "35", "29.20", null)]
         public virtual void CalculateAreaAndPerimeterOfATriangle(string baseTriangle, string height, string area, string perimeter, string[] exampleTags)
         {
             string[] @__tags = new string[] {
@@ -302,12 +301,12 @@ namespace SpecFlowProject4.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Calculate area and circumference of a circle")]
+        [NUnit.Framework.DescriptionAttribute("Calculate area and perimeter of a circle")]
         [NUnit.Framework.CategoryAttribute("mytag")]
         [NUnit.Framework.TestCaseAttribute("5", "78.54", "31.42", null)]
         [NUnit.Framework.TestCaseAttribute("7", "153.94", "43.98", null)]
         [NUnit.Framework.TestCaseAttribute("10", "314.16", "62.83", null)]
-        public virtual void CalculateAreaAndCircumferenceOfACircle(string radius, string perimeter, string area, string[] exampleTags)
+        public virtual void CalculateAreaAndPerimeterOfACircle(string radius, string perimeter, string area, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "mytag"};
@@ -320,7 +319,7 @@ namespace SpecFlowProject4.Features
             argumentsOfScenario.Add("Radius", radius);
             argumentsOfScenario.Add("Perimeter", perimeter);
             argumentsOfScenario.Add("Area", area);
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and circumference of a circle", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of a circle", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 59
   this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -345,7 +344,7 @@ namespace SpecFlowProject4.Features
     testRunner.Given(string.Format("we have a circle with a radius of {0}", radius), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 61
-    testRunner.When("we calculate figure2 area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 62
     testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -400,7 +399,7 @@ namespace SpecFlowProject4.Features
     testRunner.Given(string.Format("we have an ellipse with a major axis of {0} and a minor axis of {1}", majorAxis, minorAxis), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 75
-    testRunner.When("we calculate figure2 area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 76
     testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
