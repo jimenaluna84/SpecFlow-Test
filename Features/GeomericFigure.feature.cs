@@ -94,7 +94,7 @@ namespace SpecFlowTests.Features
             argumentsOfScenario.Add("Perimeter", perimeter);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of a square", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 4
-  this.ScenarioInitialize(scenarioInfo);
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -114,16 +114,16 @@ namespace SpecFlowTests.Features
             {
                 this.ScenarioStart();
 #line 5
-    testRunner.Given(string.Format("we have a square side of {0}", side), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given(string.Format("we have a square side of {0}", side), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 6
-    testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 7
-    testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 8
-    testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -151,7 +151,7 @@ namespace SpecFlowTests.Features
             argumentsOfScenario.Add("Perimeter", perimeter);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of a triangle", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 17
-  this.ScenarioInitialize(scenarioInfo);
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -171,16 +171,16 @@ namespace SpecFlowTests.Features
             {
                 this.ScenarioStart();
 #line 18
-    testRunner.Given(string.Format("we have a triangle base of {0} and a height of {1}", baseTriangle, height), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given(string.Format("we have a triangle base of {0} and a height of {1}", baseTriangle, height), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 19
-    testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 20
-    testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 21
-    testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -208,7 +208,7 @@ namespace SpecFlowTests.Features
             argumentsOfScenario.Add("Perimeter", perimeter);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of a rhombus", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 31
-  this.ScenarioInitialize(scenarioInfo);
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -228,16 +228,16 @@ namespace SpecFlowTests.Features
             {
                 this.ScenarioStart();
 #line 32
-    testRunner.Given(string.Format("we have a rhombus with diagonals of lengths {0} and {1}", majorDiagonal, minorDiagonal), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given(string.Format("we have a rhombus with diagonals of lengths {0} and {1}", majorDiagonal, minorDiagonal), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 33
-    testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 34
-    testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 35
-    testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -265,7 +265,7 @@ namespace SpecFlowTests.Features
             argumentsOfScenario.Add("Perimeter", perimeter);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of a rectangle", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 45
-  this.ScenarioInitialize(scenarioInfo);
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -285,16 +285,16 @@ namespace SpecFlowTests.Features
             {
                 this.ScenarioStart();
 #line 46
-    testRunner.Given(string.Format("we have a rectangle with length {0} and width {1}", height, width), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given(string.Format("we have a rectangle with length {0} and width {1}", height, width), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 47
-    testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 48
-    testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 49
-    testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -321,7 +321,7 @@ namespace SpecFlowTests.Features
             argumentsOfScenario.Add("Area", area);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of a circle", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 59
-  this.ScenarioInitialize(scenarioInfo);
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -341,16 +341,16 @@ namespace SpecFlowTests.Features
             {
                 this.ScenarioStart();
 #line 60
-    testRunner.Given(string.Format("we have a circle with a radius of {0}", radius), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given(string.Format("we have a circle with a radius of {0}", radius), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 61
-    testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 62
-    testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 63
-    testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -376,7 +376,7 @@ namespace SpecFlowTests.Features
             argumentsOfScenario.Add("Perimeter", perimeter);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of an ellipse", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 73
-  this.ScenarioInitialize(scenarioInfo);
+this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -396,16 +396,63 @@ namespace SpecFlowTests.Features
             {
                 this.ScenarioStart();
 #line 74
-    testRunner.Given(string.Format("we have an ellipse with a major axis of {0} and a minor axis of {1}", majorAxis, minorAxis), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given(string.Format("we have an ellipse with a major axis of {0} and a minor axis of {1}", majorAxis, minorAxis), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 75
-    testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 76
-    testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then(string.Format("the area should be {0}", area), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 77
-    testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And(string.Format("the perimeter should be {0}", perimeter), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line hidden
+            }
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Calculate area and perimeter of a square with negative input")]
+        [NUnit.Framework.CategoryAttribute("mytag")]
+        [NUnit.Framework.TestCaseAttribute("-5", null)]
+        [NUnit.Framework.TestCaseAttribute("-10", null)]
+        public virtual void CalculateAreaAndPerimeterOfASquareWithNegativeInput(string side, string[] exampleTags)
+        {
+            string[] @__tags = new string[] {
+                    "mytag"};
+            if ((exampleTags != null))
+            {
+                @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
+            }
+            string[] tagsOfScenario = @__tags;
+            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
+            argumentsOfScenario.Add("Side", side);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Calculate area and perimeter of a square with negative input", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+#line 84
+this.ScenarioInitialize(scenarioInfo);
+#line hidden
+            bool isScenarioIgnored = default(bool);
+            bool isFeatureIgnored = default(bool);
+            if ((tagsOfScenario != null))
+            {
+                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((this._featureTags != null))
+            {
+                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
+            }
+            if ((isScenarioIgnored || isFeatureIgnored))
+            {
+                testRunner.SkipScenario();
+            }
+            else
+            {
+                this.ScenarioStart();
+#line 85
+  testRunner.When("we calculate the area and perimeter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+#line 86
+       testRunner.Then(string.Format("the area and perimeter should not be calculable due to the negative {0}", side), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

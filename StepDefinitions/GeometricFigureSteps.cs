@@ -36,6 +36,7 @@ namespace SpecFlowProject4.StepDefinitions
         {
             GeometricFigure Figure = new Square(side, "cm");
             scenarioContext["Figure"] = Figure;
+
         }
 
 
@@ -106,11 +107,20 @@ namespace SpecFlowProject4.StepDefinitions
         {
             GeometricFigure Figure = new Ellipse(RadiusMajorAxis, RadiusMinorAxis, "cm");
             scenarioContext["Figure"] = Figure;
+
+        }
+        
+       
+        [Then(@"the area and perimeter should not be calculable due to the negative (.*)")]
+
+        public void ThenTheAreaAndPerimeterShouldNotBeCalculableDueToTheNegativeInput(double side)
+        {
+            Assert.Throws<ArgumentException>(() => new Square(side, "cm"));
         }
 
 
-
     }
+
 }
 
 
